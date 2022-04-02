@@ -498,7 +498,7 @@ button{
 /* FOOTER */
 #footer {
   width: 100%;
-  height:10%;
+  height:auto;
   position: fixed;
   bottom: 0px;
   background-color: black;
