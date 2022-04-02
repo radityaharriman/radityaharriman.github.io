@@ -193,7 +193,7 @@ li {
 #footer {
   width: 100%;
   position: fixed;
-  bottom: 0px;
+  bottom: -15px;
   background-color: black;
 }
 #contact {
