@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Involvement</title>
+	  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css"> <!-- your stylesheet-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> <!--creates social media icons-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	
+  </head>
+
+  <body class = "bg">
+
+    <!--NAV BAR, each page needs a navigation bar so this is why we add it here again. 
+	    So copy the navigation bar that you created in your index page and paste right below this comment replacing the entire <nav> element below. -->
+	
+	<!--Replace Below-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark" id = "nav-bar"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!--NAVBAR IMAGE ICON GOES HERE. Replace the value of src below to a directoy (e.g img/myimage.jpg) or an image url from the internet (e,g https://shpe-icon.png)-->
+                <img src="img/iit2.png" width="140" height="39" alt=""> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 wrapper">
+            
+                    <!--This is where we link all of our other HTML pages. Such as the Home page, About page, Resume page, Involvement Page, and Projects page. Notice the value of href?
+                        If you ever want to create a new page and add it to your navigation bar, this is where you'll do it. Just copy and paste the entire li element and change the href value along with the name.-->
+                    <li class="nav-item active effect-underline">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <!--Inside the href value, add in the name of your resume file.-->
+                        <a class="nav-link" href="Raditya_Harriman_Resume.pdf">Resume <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="involvement.html">Involvement <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">Projects & Skills <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                </ul>
+                <!--Social Media Icons-->
+                <ul class="navbar-nav sm-icons">
+                    <!--Add in your links to following social media websites if you want to!
+                        If you don't want to add one of these or just don't have an account, then simply delete the corresponding list 'li' element. 
+                        If you want to add some other social media website that isn't on here go here https://www.w3schools.com/icons/fontawesome_icons_brand.asp to see if it is supported.-->
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/radityaharriman" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/radityaharriman" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/HarrimanRaditya" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/raditya.harriman" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/radityaharriman/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<!--Replace Above-->
+	  <!--NAV BAR (END) -->
+
+	  <!--Involvement cards begin here-->
+	<div class="container">
+	<div class = "row d-flex  justify-content-center">
+
+			<!--First Card-->
+			<div class="col-md-12 col-lg-4 involvement">
+				<div class="card" style="width: 25rem; margin-right: 60px;">
+					<!--Replace the img src below to add an image to the card. This should be something related to whatever you were involved with (e.g. organization)-->
+					<img class="card-img-top" src="img/iit3.png" alt="Card image cap">
+					<div class="card-body">
+						<!--Replace the card title below-->
+						<h4 class="card-title"><b>Floor Representative</b></h4>
+						<!--Add a subtitle below-->
+						<h5 class="card-subtitle">General Member</h5>
+						<!--Add the time length of your involvement below-->
+						<p class="card-text">August 2021 - Present</p>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Org1"> Learn More </button>
+					</div>
+				</div>
+			</div>
+
+			<!--Second Card-->
+			<!--<div class="col-md-12 col-lg-4 involvement">
+				<div class="card" style="width: 25rem; margin-right: 60px;">
+					<img class="card-img-top" src="img/music.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title"><b>Resident Hall Representative</b></h4>
+						<h5 class="card-subtitle">General Member</h5>
+						<p class="card-text">August 2021 - Present</p>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Org1"> Learn More </button>
+					</div>
+				</div>-->
+			</div>
+
+			<!--Third Card (You can make more duplicates of cards, just copy and paste!)-->
+			
+		</div>
+	</div>
+
+	  <!--This section is for when a user clicks on the 'Learn More' button to find out more information about your involvement. -->
+
+	  <!--This is for your first card.-->
+	  <div class="modal fade" id="Org1" tabindex="-1" role="dialog" aria-labelledby="org1" aria-hidden="true">
+		<div class="modal-dialog" role="document" id="modal-scroll">
+			<div class="modal-content">
+				<div class="modal-header">
+
+				<!--Add your title below-->
+				<h5 class="modal-title" id="org1">Floor Representative</h5>
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body" id="modal-scroll-body">
+					<!--You can break up your descriptions into paragraphs.-->
+					<p>Acted as a representative for residence hall meetings where we discuss problems in each residence halls and try to find a solution by working together.</p>
+
+					<!--Optional: If you direct the user to a link to learn more about your involvement or and organization. You can provide a link below-->
+					<!--<a href="https://www.iit.edu/housing/residence-life/resident-hall-association" target="_blank">Learn more about ...</a>-->
+				</div>	
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!--This is for your second card-->
+		<!--<div class="modal fade" id="Org2" tabindex="-1" role="dialog" aria-labelledby="org2" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					
+					<h5 class="modal-title" id="org2">Resident Hall Representative</h5>
+	
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+						<p>Acted as a representative for floor meetings where we discuss problems in each residence halls and try to find a solution by working together.</p>
+						
+					</div>	
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>-->
+  </body>
+
+ <!--FOOTER BAR. COPY AND PASTE THE FOOTER BLOCK FROM YOUR INDEX.HTML PAGE BELOW.-->
+
+<!--Replace Below-->
+
+<footer class="bg-dark text-center text-white" id = "footer">
+	<div class="container p-1 pb-0">
+	  <!-- Section: Social media -->
+	  <section class="mb-4">
+        <!--Add in your links to following social media websites if you want to! 
+			If you don't want to add one of these or just don't have an account, then simply delete the corresponding 'a' element. 
+			If you want to add some other social media website that isn't on here go here https://www.w3schools.com/icons/fontawesome_icons_brand.asp to see if it is supported.-->
+		<!-- Linkedin -->
+		<a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/radityaharriman" target="_blank" role="button"
+		  ><i class="fab fa-linkedin"></i
+		></a>
+  
+		<!-- Github -->
+		<a class="btn btn-outline-light btn-floating m-1" href="https://github.com/radityaharriman" target="_blank" role="button"
+		  ><i class="fab fa-github"></i
+		></a>
+
+		<!-- Twitter -->
+		<a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/HarrimanRaditya" target = "_blank" role="button"
+		  ><i class="fab fa-twitter"></i
+		></a>
+
+		<!-- Facebook -->
+		<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/raditya.harriman" target = "_blank" role="button"
+		  ><i class="fab fa-facebook"></i
+		></a>
+
+		<!-- Instagram -->
+		<a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/radityaharriman/" target = "_blank" role="button"
+		  ><i class="fab fa-instagram"></i
+		></a>
+
+	  </section>
+	  <!-- Section: Social media (END) -->
+	</div>
+
+	<!-- Contact Sub Footer Bar -->
+	<!--You can change the background color here you wish to do so. Just click on the little square next to 'rgba'-->
+	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id = "contact">
+	  Contact Me:
+	  <!--Add your email here.-->
+	  <a class="text-white" id = "contact">rharriman@hawk.iit.edu</a>
+	</div>
+	<!-- Contact Sub Footer Bar (END) -->
+  </footer>
+  <!--Replace Above-->	
+
+</html>

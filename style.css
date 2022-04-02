@@ -1,0 +1,212 @@
+/*---Media Queries (Don't worry about this.)--*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+/*---Firefox Bug Fix (Don't worry about this.)--*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix (Don't worry about this.)--*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/* SET YOUR BACKGROUND IMAGE HERE. DELETE THE CSS PROPERTY 'background-color' and value INSIDE THE BLOCK AND THEN UNCOMMENT THE OTHER PORTION OF THE BLOCK. HIGHLIGH AND THEN PRESS (CTRL + /) */
+body { 
+  background: url(img/mies_campus.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  /*background-color: black;*/
+}
+
+/* NAV BAR STYLE PROPERTIES */
+
+ /*By default, when one hovers over the text in the nav bar, it is temporarily underlined with a shade of red color. You can change the color here if you wish inside the border-bottom property.*/
+li:hover {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 6px 0; 
+}
+
+/*By default, when one hovers over the text in the nav bar, the font-color is temporarily changed with a shade of yellow. You can change the color here if you wish.*/
+.nav-item a:hover { 
+  color: rgba(46, 0, 253, 0.753) !important; 
+
+}
+
+/* If you want more options for fonts, check out https://fonts.google.com/ find a font you like and let me know! I'll come and help you add that font in. 
+   Changing the font here would change the font in the nav-bar. */
+.navbar-nav a {
+  font-family: 'Merriweather', monospace;
+  font-size: large;
+}
+
+/* NavBar Padding and Hover Text Effects*/
+li {
+  display:inline-block;
+  padding:5px;
+  transition: 0.3s ease;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 17px;
+ }
+
+/*If you want to make your navigation bar transparent uncomment the CSS block below.*/
+
+ #nav-bar {
+  background-color: transparent !important; 
+} 
+
+/* NAV BAR ICONS. Default colors in respect to their social media colors. */
+.fa-github{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00acee;
+}
+.fa-linkedin{
+  color: #0e76a8;
+}
+.fa-instagram{
+    color: #833AB4;
+  }
+.fa-facebook{
+    color: #3b5998 ;
+}
+/**********************************/
+
+/*CSS blocks below are for your Name and Major*/
+/*You can change the font, font-size, and/or color here if you want too*/
+
+.name{
+  font-size: 65px;
+  color:white;
+  padding-top: 5%;
+  padding-bottom: 0%;
+  font-family: 'Open Sans', monospace;
+
+}
+
+.major{
+  font-family: 'Open Sans', monospace;
+  font-size: 50px;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  margin: 0;
+}
+
+/*Name, School, Major Fade In Effect*/
+#container {
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/***************You can stop here. After this line is for the projects.html page only. Proceed to your About.html page now!*******************/
+
+/*Projects.html*/
+.btnprj {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+@media (max-width: 576px) {
+  .card-img-top-proj {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+  }
+}
+@media (max-width: 991px) and  (min-width: 576px){
+  .card-img-top-proj {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+  }
+}
+@media (min-width: 992px){
+  .card-img-top-proj {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+  }
+  .card-small {
+    width: 25vw;
+    margin: 0 auto;
+  }
+}
+.project-desktop{
+  padding-bottom: 2%;
+}
+.col-lg-4.projects.d-flex.align-items-stretch{
+  padding-bottom: 8rem;
+}
+/***********************/
+
+/* FOOTER */
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+}
+#contact {
+  font-family: 'Open Sans', monospace;
+}
+
+/* FOOTER ICONS */
+.fa-github:hover {
+  color: #a8a8a8;
+}
+.fa-twitter:hover {
+  color: #a8a8a8;
+}
+.fa-linkedin:hovSer {
+  color: #a8a8a8;
+}
