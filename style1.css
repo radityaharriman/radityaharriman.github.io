@@ -61,9 +61,9 @@ li {
 
   /* UNCOMMENT BELOW IF YOU WANT YOUR NAVIGATION BAR TO BE TRANSPARENT */
 
-  /* #nav-bar {
+  #nav-bar {
     background-color: transparent !important; 
-  } */
+  }
 
   /*Footer and Navbar Icons*/
 .fa-github{
