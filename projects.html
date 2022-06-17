@@ -46,7 +46,7 @@
                     </li>
                     <li class="nav-item active">
                         <!--Inside the href value, add in the name of your resume file.-->
-                        <a class="nav-link" href="Raditya_Harriman_Resume.pdf">Resume <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="Raditya_Harriman_Resume.pdf" target="_blank">Resume <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="involvement.html">Involvement <span class="sr-only">(current)</span></a>
@@ -109,6 +109,22 @@
 				</div>
 			</div> 
 
+			<!-- project/skill 3 -->
+			<div class="col-lg-4 projects d-flex align-items-stretch">
+				<div class="card h-70 text-center text-white bg-dark card-small ">
+
+					<!--Add an image below that is related to this skill/project -->
+					<img class="card-img-top-proj" src="img/electronicvendorapp.png" alt="image">
+
+					<div class="card-body">
+						<h4 class="card-title">Electronic Vendor Application</h4>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#three">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</div> 
+
 			
 		</div>
 	</div>
@@ -159,7 +175,34 @@
 				<!--Talk about your project/skill below. Add the text in the paragraph tags below.-->
 				<div class="modal-body">
 					<p>For our assembly language course's final project, we were each tasked of making a functional calculator through the assembly language of MIPS. This calculator should be able to do all arithmetic calculations, modulo, factorial, sum, and conversions between hexadecimal, binary and decimal.</p>
-					<p>A github page for this will soon be uploaded</p> 
+					<p>A github page for this will soon be uploaded</p>
+				</div>	
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--Project 3-->
+	<div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="three" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+
+				<!--Add a modal title below-->
+				<h5 class="modal-title" id="org1">Electronic Vendor Application</h5>
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<!--Talk about your project/skill below. Add the text in the paragraph tags below.-->
+				<div class="modal-body">
+					<p>For my class in database structures, we were tasked as a final project to create an electronic vendor application, similar to Best Buy and more.</p>
+					<p>We created a basic application using Python's TKinter and used SQLite for our database. Below is the link to the Github</p> 
+					<a href="https://github.com/radityaharriman/CS425-Electronic-Vendor-Project" target="_blank">GitHub Link</a>
+
 				</div>	
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
