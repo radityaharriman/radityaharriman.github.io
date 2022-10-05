@@ -2,16 +2,13 @@
 <html lang="en">
 	
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>About Me</title>
 	  
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- your stylesheet-->
 	<link rel="stylesheet" href="style1.css"> 
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> <!--creates social media icons-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	
@@ -19,16 +16,11 @@
 
   <body>
 
-    <!--TASK #1-->
-
-    <!--NAV BAR, each page needs a navigation bar so this is why we add it here again. 
-	    So copy the navigation bar that you created in your index page and paste right below this comment replacing the entire <nav> element below. -->
-	
-	<!--Replace Below-->
+    <!--NAVBAR-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark" id = "nav-bar"> 
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <!--NAVBAR IMAGE ICON GOES HERE. Replace the value of src below to a directoy (e.g img/myimage.jpg) or an image url from the internet (e,g https://shpe-icon.png)-->
+
                 <img src="img/iit2.png" width="140" height="39" alt=""> 
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,16 +30,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 wrapper">
             
-                    <!--This is where we link all of our other HTML pages. Such as the Home page, About page, Resume page, Involvement Page, and Projects page. Notice the value of href?
-                        If you ever want to create a new page and add it to your navigation bar, this is where you'll do it. Just copy and paste the entire li element and change the href value along with the name.-->
-                    <li class="nav-item active effect-underline">
+                   <li class="nav-item active effect-underline">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <!--Inside the href value, add in the name of your resume file.-->
+
                         <a class="nav-link" href="Raditya_Harriman_Resume.pdf" target="_blank">Resume <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
@@ -60,9 +50,6 @@
                 </ul>
                 <!--Social Media Icons-->
                 <ul class="navbar-nav sm-icons">
-                    <!--Add in your links to following social media websites if you want to!
-                        If you don't want to add one of these or just don't have an account, then simply delete the corresponding list 'li' element. 
-                        If you want to add some other social media website that isn't on here go here https://www.w3schools.com/icons/fontawesome_icons_brand.asp to see if it is supported.-->
                     <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/radityaharriman" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="https://github.com/radityaharriman" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="https://twitter.com/HarrimanRaditya" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -72,61 +59,30 @@
             </div>
         </div>
     </nav>
-	<!--Replace Above-->
-
-	<!--Background Image - TASK #2-->
-
-	<!--If you want an About Me page design similar to mine it will require a fairly large photo. 
-		My photo is 3984x1951, but a photo that is at least 1800x2000 should work...maybe.
-	    If you do have a photo that large, provide the directory address below! 
-		Otherwise, comment out the 'div' block and uncomment the following 'div' container after this one-->
-
-	<!-- <div class="item">
-		<div class="img-wrap">
-			  <img src="img-mypicture.png">
-		</div>
-    </div> -->
-
-	<!--UNCOMMENT THIS DIV CONTAINER BELOW (if you commented out the one above). And add the img directory address. 
-		A trick to uncomment and comment: on Windows press (CTRL + /) to comment or uncomment after highlighting a piece of text. 
-		On Mac it should be similar.-->
-
-    	
-	<!-- <div class="img-wrap">
-		<img src="img/mypicture.png">
-	</div>  -->
-   
-
-	<!--TASK #3-->
-	<!--After uncommenting the block above, go to your CSS stylesheet, this time it is the one called 'style1.css', find it in your project directory to the left of the screen. 
-		You have to uncomment some things in there as well for this to work properly! After doing so, come back to where you left off in about.html -->
-		
-	<!--Background Image (END) -->
 	
-	<!--TASK #4-->
-	<!--About Me Paragraph(s)-->
+    <!--About Me Paragraph(s)-->
 	<div class="about text-center">
 	  <div class="col-lg-6 col-md-12 about-top">
 		  <h1 style= "text-decoration: underline; font-weight: bold;">About Me</h1>
-		  <!--Remember, each p tag is a paragraph so write an entire paragraph (4-6 sentences) within the opening and closing tag. 
-			  Introduce yourself, how old you are, where you are from, what you do, what you're about, what you like, your career goals, etc. Get Creative!
-		      Keep in mind that a recruiter might see this page, so think about how you would like to present yourself.-->
-		  <p>Hello! My name is Radit. I was born and raised in Jakarta, Indonesia and I am 20 years old.</p>
+
+          <p>Hello! My name is Radit. I was born and raised in Jakarta, Indonesia and I am 20 years old.</p>
 	      <p>I am a fourth year Computer Science major. I have gained experience through projects and classes and gained proficiency in Python, Java, MIPS, and a bit of HTML and CSS. I am still looking to learn more languages and practice my problem solving, especially through internships!</p>
 		  <p>I am currently doing an Internship for Summer 2022 but am open to more opportunities for Summer 2023! I value companies with a diverse culture and provide space for their employees to grow and be challenged.</p>
 	      <p>Outside of that, my hobbies include soccer, table tennis, and badminton! I also recently started rock climbing and is having a lot of fun doing it! I love to volunteer, usually either with the church or PAWS Chicago (Animal Shelter).</p>
-	  </div>
+
+        </div>
 	</div>
 
-	<!-- Image Carousel - TASK #5 -->
+	<!-- Image Carousel -->
 	<div class="padding d-none d-md-block">
 		<div class="text-center col-md-12 p-0">		
 			<div class="carousel-fix">
 				<div id="carouselExampleIndicators" class="carousel slide button-fix" data-ride="carousel">
 					<ol class="carousel-indicators"> 
-						<!--duplicate these list elements for as many slides as you have in your img carousel.
-							For example, if you have only 3 images then delete 1 list element below, if you have 5 images, add an extra one and modify the 'data-slide-to' value-->
-						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						
+
+                        <!--Element List-->
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>		
@@ -140,21 +96,21 @@
 
 						<!--image #1-->
 						<div class="carousel-item active">
-							<!--replace src with the name of the pic inside your img folder-->
+							
 							<img class="d-block" src="img/mypicture.png" alt="First slide">
 							<div class="carousel-caption d-md-block"> 
-								<!-- Add a caption below! -->
+								
 								<h6 style="color:rgb(0, 0, 0);">My Pic!</h6>
 							</div>
 						</div>
 
 						<!--image #2-->
 						<div class="carousel-item">
-							<!--picture-->
-							<img class="d-block" src="img/slide2.JPG" alt="Second slide"> 
+
+                            <img class="d-block" src="img/slide2.JPG" alt="Second slide"> 
 							<div class="carousel-caption d-md-block">
-								<!--caption-->
-								<h6>Volunteer with Cru and New Community Outreach!</h6> 
+
+                                <h6>Volunteer with Cru and New Community Outreach!</h6> 
 							</div>
 						</div>
 
@@ -198,7 +154,7 @@
 								<h6>Scavenger Hunt During First Week!</h6>
 							</div>
 						</div>
-						<!--If you want to add more just copy and paste a div element above and change the corresponding properties/values. Don't forget to update the list above!-->
+
 
 					</div>
 					<!--left and right arrows on carousel-->
@@ -216,7 +172,7 @@
 	</div>
 	<!-- Image Carousel (END) -->
 
-	<!--TIMELINE - TASK #6 -->
+	<!--TIMELINE-->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -227,9 +183,8 @@
 				<div class="timeline-adjust">
 					<ul class="timeline timeline-horizontal">
 						<!--THE LIST ELEMENT BELOW REPRESENT A TIMELINE ITEM.-->
-						<!--Fill in as much as you can, if you can't fill out all 10 timeline items then simply delete the remainding ones.-->
 
-						<!--Timeline Item #1, this will be an example item. Replace it!-->
+						<!--Timeline Item #1-->
 						<li class="timeline-item">
 							<div class="timeline-badge primary"><i class="far fa-check-circle"></i></div>
 							<div class="timeline-panel">
@@ -369,7 +324,6 @@
 							</div>
 						</li>
 
-						<!--If you want to add more just copy and paste another list element like the ones above.-->
 
 					</ul>
 				</div>
@@ -379,56 +333,4 @@
 
   </body>
 
-<!--FOOTER BAR. COPY AND PASTE THE FOOTER BLOCK FROM YOUR INDEX.HTML PAGE TO HERE.-->
-
-<!--Replace Below-->
-
-<footer class="bg-dark text-center text-white" id = "footer">
-	<div class="container p-1 pb-0">
-	  <!-- Section: Social media -->
-	  <section class="mb-4">
-        <!--Add in your links to following social media websites if you want to! 
-			If you don't want to add one of these or just don't have an account, then simply delete the corresponding 'a' element. 
-			If you want to add some other social media website that isn't on here go here https://www.w3schools.com/icons/fontawesome_icons_brand.asp to see if it is supported.-->
-		<!-- Linkedin -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/radityaharriman" target="_blank" role="button"
-		  ><i class="fab fa-linkedin"></i
-		></a>
-  
-		<!-- Github -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://github.com/radityaharriman" target="_blank" role="button"
-		  ><i class="fab fa-github"></i
-		></a>
-
-		<!-- Twitter -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/HarrimanRaditya" target = "_blank" role="button"
-		  ><i class="fab fa-twitter"></i
-		></a>
-
-		<!-- Facebook -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/raditya.harriman" target = "_blank" role="button"
-		  ><i class="fab fa-facebook"></i
-		></a>
-
-		<!-- Instagram -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/radityaharriman/" target = "_blank" role="button"
-		  ><i class="fab fa-instagram"></i
-		></a>
-
-	  </section>
-	  <!-- Section: Social media (END) -->
-	</div>
-
-	<!-- Contact Sub Footer Bar -->
-	<!--You can change the background color here you wish to do so. Just click on the little square next to 'rgba'-->
-	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id = "contact">
-	  Contact Me:
-	  <!--Add your email here.-->
-	  <a class="text-white" id = "contact">rharriman@hawk.iit.edu</a>
-	</div>
-	<!-- Contact Sub Footer Bar (END) -->
-  </footer>
-  <!--Replace Above-->
-
-  <!--Awesome! Your about me page is finished. If you want to change your font-settings for your about me then head over to your stylesheet 'style1.css' and look for the CSS block 'about-top'-->
 </html>
