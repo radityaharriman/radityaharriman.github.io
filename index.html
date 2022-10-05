@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags, you don't have to worry about what this means.-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<!--Replace The Title Of Your Website Here-->
 	<title>radityaharriman</title>
 
-    <!-- Bootstrap CSS, you don't have to worry about what this means.-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	
-	<!--stylesheet goes here, reference it in the href tag-->
 	<link rel="stylesheet" href="style.css"> 
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> <!--creates social media icons-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>  
@@ -22,16 +18,12 @@
 
   <body>
 	<div class="bg h-100">
-		<!--NAV BAR (START) - All the contents below enclosed in the <div> container are what make up the navigation bar for your website. Make the appropiates edits below!-->
-	    
-		<!--CHANGE COLOR OF YOUR NAVBAR IF YOU WANT. See where it says "bg-dark"? You can replace it with "bg-light", or "bg-primrary".
-		Or, if you want your own color replace it with the following: style="background-color: #e3f2fd;" where #e3f2fd is the hex number for a shade of black. 
-		You can google the hex numbers of other colors too and add those in.-->
+        <!--NAVBAR-->>
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark" id = "nav-bar"> 
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
-				    <!--NAVBAR IMAGE ICON GOES HERE. Replace the value of src below to a directoy (e.g img/myimage.jpg) or an image url from the internet (e,g https://shpe-icon.png)-->
-					<img src="img/iit2.png" width="140" height="39" alt=""> 
+
+                    <img src="img/iit2.png" width="140" height="39" alt=""> 
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -40,16 +32,13 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mx-auto mb-2 mb-lg-0 wrapper">
 				
-				        <!--This is where we link all of our other HTML pages. Such as the Home page, About page, Resume page, Involvement Page, and Projects page. Notice the value of href?
-							If you ever want to create a new page and add it to your navigation bar, this is where you'll do it. Just copy and paste the entire li element and change the href value along with the name.-->
-						<li class="nav-item active effect-underline">
+				        <li class="nav-item active effect-underline">
 						    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item active">
-						    <!--Inside the href value, add in the name of your resume file.-->
 							<a class="nav-link" href="Raditya_Harriman_Resume.pdf" target="_blank">Resume <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item active">
@@ -60,12 +49,10 @@
 						</li>
 						
 					</ul>
+
 					<!--Social Media Icons-->
 					<ul class="navbar-nav sm-icons">
-						<!--Add in your links to following social media websites if you want to!
-							If you don't want to add one of these or just don't have an account, then simply delete the corresponding list 'li' element. 
-							If you want to add some other social media website that isn't on here go here https://www.w3schools.com/icons/fontawesome_icons_brand.asp to see if it is supported.-->
-						<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/radityaharriman" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/radityaharriman" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 						<li class="nav-item"><a class="nav-link" href="https://github.com/radityaharriman" target="_blank"><i class="fab fa-github"></i></a></li>
 						<li class="nav-item"><a class="nav-link" href="https://twitter.com/HarrimanRaditya" target="_blank"><i class="fab fa-twitter"></i></a></li>
 						<li class="nav-item"><a class="nav-link" href="https://www.facebook.com/raditya.harriman" target="_blank"><i class="fab fa-facebook"></i></a></li>
@@ -74,72 +61,24 @@
 				</div>
 			</div>
 		</nav>
-        <!--NAV BAR (END) -->
 	</div>
 	  
 
-	<!--Name, School, Major. This portion of HTML code will populate itself in the center of your home page.-->
 	<div class="text-center align-self-center" id = "container">
-	    <!--Name-->
 		<p class="name text-center h1 line-1">Raditya Harriman</p> 
-		<!--School. You're free to change the image if you want. Make sure it is a png file, or if you don't want an image and just text, then you can add in a <p> tag-->
         <img src = "img/iit.png" width = "35%" height = "auto" class = "img-fluid" alt = "Illinois Institute of Technology" >
-        <!--Major-->
 		<p class="text-center h2 major">Computer Science</p>
 	</div>
-	<!--Name, School, Major (END)-->
 
 </body>
 
-<!--FOOTER BAR. You can change the color here again if you want to! Just replace "bg-dark" like how you did with nav bar (if you did so)-->
-<footer class="bg-dark text-center text-white" id = "footer">
-	<div class="container p-1 pb-0">
-	  <!-- Section: Social media -->
-	  <section class="mb-4">
-        <!--Add in your links to following social media websites if you want to! 
-			If you don't want to add one of these or just don't have an account, then simply delete the corresponding 'a' element. 
-			If you want to add some other social media website that isn't on here go here https://www.w3schools.com/icons/fontawesome_icons_brand.asp to see if it is supported.-->
-		<!-- Linkedin -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/radityaharriman" target="_blank" role="button"
-		  ><i class="fab fa-linkedin"></i
-		></a>
-  
-		<!-- Github -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://github.com/radityaharriman" target="_blank" role="button"
-		  ><i class="fab fa-github"></i
-		></a>
+<!--Footer Bar-->
+    <footer class="bg-dark text-center text-white" id = "footer">
 
-		<!-- Twitter -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/HarrimanRaditya" target = "_blank" role="button"
-		  ><i class="fab fa-twitter"></i
-		></a>
-
-		<!-- Facebook -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/raditya.harriman" target = "_blank" role="button"
-		  ><i class="fab fa-facebook"></i
-		></a>
-
-		<!-- Instagram -->
-		<a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/radityaharriman/" target = "_blank" role="button"
-		  ><i class="fab fa-instagram"></i
-		></a>
-
-	  </section>
-	  <!-- Section: Social media (END) -->
-	</div>
-
-	<!-- Contact Sub Footer Bar -->
-	<!--You can change the background color here you wish to do so. Just click on the little square next to 'rgba'-->
 	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id = "contact">
 	  Contact Me:
-	  <!--Add your email here.-->
 	  <a class="text-white" id = "contact">rharriman@hawk.iit.edu</a>
 	</div>
-	<!-- Contact Sub Footer Bar (END) -->
   </footer>
-  <!--FOOTER BAR (END)-->
 
-  <!--Nice! You made it to the end and your home page is just about ready. All we need is a finishing touch, which is adding a background image. Head over to your CSS stylesheet called "style.css".
-      Look for it in your project directory that is on the left side of your screen. Proceed with the instructions that are on there!-->
-</html>
-```
+  </html>
